@@ -1,0 +1,67 @@
+#div_banner{
+    display: block; 
+    height: 96px;
+    opacity: 0;   
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+    color: white;
+    padding: 12px;
+    background-color: rgba(10, 25, 25, 1);         
+    transition: all .75s;
+}
+
+.content_banner{
+    padding-left: 12px;
+    width: 80%;    
+    background-color: rgba(10, 25, 25, 1);    
+    float: left;
+}
+.button_banner{
+    padding-top: 18px;
+    width: 19%;
+    margin-left: 5px;
+    background-color: rgba(10, 25, 25, 1);    
+    float: left;
+}
+
+.wt_btn_popup{
+    margin-left: 10px;
+    width: 100px;
+}
+
+@media (max-width:480px){    
+    body{
+        background-size: cover;
+    }
+    #div_banner{           
+        height: 280px;
+        float: none;
+    }   
+    .button_banner{
+        float: none;        
+    }
+
+    .button_banner button{
+        margin-bottom: 12px;
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px){    
+    body{
+        background-size: cover;
+    }
+    #div_banner{           
+        height: 96px;        
+    }   
+    .content_banner{
+        width: 70%;
+    }
+    .button_banner{   
+        padding-top: 0px;
+        width: 29%;
+    }
+    .button_banner button{
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,42 @@
+body{
+    background-image: url('../../images/fondtop.jpg');
+    background-size: 1 1;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.wt_content_form{
+    width: 300px;
+    background-color: rgba(255, 255, 255, .35);
+    padding: 20px;
+}
+
+.wt-form-login{   
+    
+}
+
+.div_reset{
+    clear: both;
+}
+
+.img_logo{
+    width: 127px;
+}
+
+.div_logo{
+    float: left;
+}
+
+.error_disabled{
+    display: none;    
+}
+
+.error_enabled{
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    color: red;
+    padding-top: 4px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, .8);
+}
